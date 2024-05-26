@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T12:48:50 IST" name="Default suite" finished-at="2024-05-26T12:52:25 IST" duration-ms="215232">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T12:48:50 IST" name="Default test" finished-at="2024-05-26T12:52:25 IST" duration-ms="215232">
+      <class name="tests.SignUpEnterpriseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:48:50 IST" name="setUp" finished-at="2024-05-26T12:49:07 IST" duration-ms="17345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidInputs()[pri:1, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:07 IST" name="testValidInputs" finished-at="2024-05-26T12:49:09 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:09 IST" name="tearDown" finished-at="2024-05-26T12:49:09 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:09 IST" name="setUp" finished-at="2024-05-26T12:49:25 IST" duration-ms="16381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMissingRequiredFields()[pri:2, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:25 IST" name="testMissingRequiredFields" finished-at="2024-05-26T12:49:30 IST" duration-ms="4320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingRequiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:30 IST" name="tearDown" finished-at="2024-05-26T12:49:30 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:30 IST" name="setUp" finished-at="2024-05-26T12:49:47 IST" duration-ms="16623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidEmailFormat()[pri:3, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:47 IST" name="testInvalidEmailFormat" finished-at="2024-05-26T12:49:51 IST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:51 IST" name="tearDown" finished-at="2024-05-26T12:49:51 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:49:51 IST" name="setUp" finished-at="2024-05-26T12:50:08 IST" duration-ms="16488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidPhoneNumberFormat()[pri:4, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:08 IST" name="testInvalidPhoneNumberFormat" finished-at="2024-05-26T12:50:09 IST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPhoneNumberFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:09 IST" name="tearDown" finished-at="2024-05-26T12:50:09 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:09 IST" name="setUp" finished-at="2024-05-26T12:50:26 IST" duration-ms="16590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidWebsiteURLFormat()[pri:5, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:26 IST" name="testInvalidWebsiteURLFormat" finished-at="2024-05-26T12:50:27 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidWebsiteURLFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:27 IST" name="tearDown" finished-at="2024-05-26T12:50:27 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:27 IST" name="setUp" finished-at="2024-05-26T12:50:43 IST" duration-ms="16389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLongInputsForFields()[pri:6, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:43 IST" name="testLongInputsForFields" finished-at="2024-05-26T12:50:55 IST" duration-ms="11292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLongInputsForFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:55 IST" name="tearDown" finished-at="2024-05-26T12:50:55 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:50:55 IST" name="setUp" finished-at="2024-05-26T12:51:12 IST" duration-ms="16586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUnsupportedCharactersInInputs()[pri:7, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:12 IST" name="testUnsupportedCharactersInInputs" finished-at="2024-05-26T12:51:13 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsupportedCharactersInInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:13 IST" name="tearDown" finished-at="2024-05-26T12:51:13 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:13 IST" name="setUp" finished-at="2024-05-26T12:51:29 IST" duration-ms="16367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDuplicateEmailAddress()[pri:8, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:29 IST" name="testDuplicateEmailAddress" finished-at="2024-05-26T12:51:31 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuplicateEmailAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:31 IST" name="tearDown" finished-at="2024-05-26T12:51:31 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:31 IST" name="setUp" finished-at="2024-05-26T12:51:48 IST" duration-ms="16429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidDataTypeForFields()[pri:9, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:48 IST" name="testInvalidDataTypeForFields" finished-at="2024-05-26T12:51:49 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidDataTypeForFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:49 IST" name="tearDown" finished-at="2024-05-26T12:51:49 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:51:49 IST" name="setUp" finished-at="2024-05-26T12:52:06 IST" duration-ms="16694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNoInputProvided()[pri:10, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:52:06 IST" name="testNoInputProvided" finished-at="2024-05-26T12:52:06 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoInputProvided -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:52:06 IST" name="tearDown" finished-at="2024-05-26T12:52:07 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:52:07 IST" name="setUp" finished-at="2024-05-26T12:52:24 IST" duration-ms="17098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCountrySpecificFields()[pri:12, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:52:24 IST" name="testInvalidCountrySpecificFields" finished-at="2024-05-26T12:52:25 IST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCountrySpecificFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpEnterpriseTest@5a63f509]" started-at="2024-05-26T12:52:25 IST" name="tearDown" finished-at="2024-05-26T12:52:25 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignUpEnterpriseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.SignUpEnterpriseTest">
+        <methods>
+          <include name="testInvalidDataTypeForFields"/>
+          <include name="testInvalidWebsiteURLFormat"/>
+          <include name="tearDown"/>
+          <include name="testMissingRequiredFields"/>
+          <include name="testInvalidPhoneNumberFormat"/>
+          <include name="testInvalidCountrySpecificFields"/>
+          <include name="testLongInputsForFields"/>
+          <include name="testValidInputs"/>
+          <include name="testDuplicateEmailAddress"/>
+          <include name="testNoInputProvided"/>
+          <include name="setUp"/>
+          <include name="testInvalidEmailFormat"/>
+          <include name="testUnsupportedCharactersInInputs"/>
+        </methods>
+      </class> <!-- tests.SignUpEnterpriseTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
